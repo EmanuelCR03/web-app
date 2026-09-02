@@ -273,7 +273,7 @@
     "validation.msg.savingsproduct.description.exceeds.max.length": "La descripción no puede tener más de {{params[0].value}} caracteres.",
     "validation.msg.savingsproduct.digitsAfterDecimal.is.not.within.expected.range": "Los decimales ingresados ​​son `{{params[0].value}}` y debe ser un número entre {{params[1].value}} y {{params[2].value}}.",
     "validation.msg.savingsproduct.incomeFromFeeAccountId.cannot.be.blank ": "La cuenta de Ingresos por Comisiones es obligatoria",
-        "validation.msg.savingsproduct.insufficient.balance": "Tiene un saldo de ${{balance}} en su cuenta",
+    "validation.msg.savingsproduct.insufficient.balance": "Tiene un saldo de ${{balance}} en su cuenta",
     "validation.msg.savingsproduct.interestCalculationDaysInYearType.cannot.be.blank": "El cálculo de intereses (días del año) es obligatorio.",
     "validation.msg.savingsproduct.interestCalculationDaysInYearType.is.not.one.of.expected.enumerations": "El cálculo de intereses (días del año) debe ser uno de `[ {{params[1].value}} ]`.",
     "validation.msg.savingsproduct.interestCalculationType.cannot.be.blank": "El tipo de cálculo de intereses es obligatorio.",
@@ -5841,6 +5841,16 @@
     }
   },
   "copilot": {
+    "showEarlier": "Mostrar {{count}} mensajes anteriores",
+    "a11y": {
+      "replyReady": "Respuesta lista",
+      "working": "Trabajando en su pregunta"
+    },
+    "promptNav": {
+      "label": "Preguntas de este chat",
+      "expand": "Mostrar las preguntas",
+      "collapse": "Ocultar las preguntas"
+    },
     "brand": "Mifos Intelligence AI",
     "currentSession": "Sesión actual",
     "newChat": "Nuevo chat",
